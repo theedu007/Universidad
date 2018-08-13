@@ -19,6 +19,6 @@ $info = array ('Eduardo', 'Arevalo', '27');
 
 for ($i=0; $i < 3 ; $i++)
 {
-    echo "$campos[$i] : $info[$i] <br>"
+    echo "$campos[$i] : $info[$i] <br>";
 }
 ?>
