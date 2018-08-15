@@ -20,7 +20,7 @@
             echo "$frase[1]<br>";
             echo "$frase[2]<br>";
             echo "<br>";
-            echo "fopen: Escribe un texto con formato a un destino especificado<br>"
+            echo "fopen: Escribe un texto con formato a un destino especificado<br>";
             $dir = fopen("/var/www/guias_udb/txt/archivo","w");
             fprintf($dir,'%s',"hola");
             echo "<br>";
