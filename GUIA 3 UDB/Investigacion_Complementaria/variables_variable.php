@@ -13,12 +13,11 @@ echo "apellido: $apellido <br>";
 echo "Edad: $edad <br>";
 
 echo "<br>";
+$info = 'Eduardo';
+echo "Nombre: ${$info} <br>";
+$$info = 'Arevalo';
+echo "apellido: ${$info} <br>";
+$$info = '27';
+echo "Edad: ${$info} <br>";
 
-$campos = array ('Nombre', 'Apellido', 'Edad');
-$info = array ('Eduardo', 'Arevalo', '27');
-
-for ($i=0; $i < 3 ; $i++)
-{
-    echo "$campos[$i] : $info[$i] <br>";
-}
 ?>
