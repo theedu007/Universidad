@@ -18,7 +18,7 @@
         }
         foreach($array as $num)
         {
-            echo "<li>$array<\li>";
+            echo "<li>$num<\li>";
         }
         ?>
     </ol>
