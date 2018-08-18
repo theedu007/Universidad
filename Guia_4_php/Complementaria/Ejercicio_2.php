@@ -11,14 +11,22 @@
     <?php
     $array = [];
     $array_sec = [];
-    $tam = rand(1,10);
+    $tam = rand(2,100);
     for($i=0;$i<$tam;$i++)
     {
         array_push($array,rand(1,100));
     }
-    foreach($array as $var)
+    $cont = 0;
+    for($i=0;$i<$tam;$i++)
     {
-        echo "$var </br>"
+            $cont++;
+            if($i % 2 == 0)
+            {
+                    array_push($array_sec,$array[$cont]);
+            }
     }
+    echo array_sum($array_sec)/sizeof($array_sec) + "</br>";
+    ?>
 </body>
 </html>
+
