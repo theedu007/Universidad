@@ -9,7 +9,7 @@
         <?php
             echo "addslashes Devuelve un string con barras invertidas delante de los caracteres que necesitan ser escapados. <br>
             Estos caracteres son la comilla simple (\'), comilla doble (\") barra invertida (\\) y NUL (el byte NULL).<br>";
-            $frase = 'Son $10';
+            $frase = 'Son $10 <br>';
             echo addslashes($frase);
             echo "<br>";
             echo "explode Devuelve un array de string, siendo cada uno un substring del parámetro string formado <br> 
