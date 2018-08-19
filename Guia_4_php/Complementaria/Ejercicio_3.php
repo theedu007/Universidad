@@ -43,7 +43,7 @@
             "Turkia" => "Ankara",
             "Estados Unidos" => "Washington DC"
         );
-        unset($array[1],$array[3]);
+        unset($array["España"],$array["Estados Unidos"]);
         foreach ($array as $pais => $capital)
         {
             echo "<tr>";
