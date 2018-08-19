@@ -31,8 +31,9 @@
     for($i=0;$i<$tam;$i++)
     {
         if($i % 2 == 0)
-            echo "$array[i] </br>"
+            echo "$array[$i] </br>";
     }
+    ?>
 </body>
 </html>
 
