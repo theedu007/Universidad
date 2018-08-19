@@ -24,7 +24,31 @@
         {
             echo "<tr>";
             echo "<td>$pais</td>";
-            echo "<td$capital</td>";
+            echo "<td>$capital</td>";
+            echo "</tr>";
+        }
+        ?>
+    </table>
+    
+    <h3>Parte 2</h3>
+    <table border="1px solid black">
+        <tr>
+            <th>Pais</th>
+            <th>Capital</th>
+        </tr>
+        <?php
+        $array = array(
+            "El Salvador" => "San Salvador",
+            "España" => "Madrid",
+            "Turkia" => "Ankara",
+            "Estados Unidos" => "Washington DC"
+        );
+        unset($array[1],$array[3]);
+        foreach ($array as $pais => $capital)
+        {
+            echo "<tr>";
+            echo "<td>$pais</td>";
+            echo "<td>$capital</td>";
             echo "</tr>";
         }
         ?>
