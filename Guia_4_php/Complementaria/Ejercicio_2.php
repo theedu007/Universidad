@@ -22,11 +22,17 @@
             $cont++;
             if($i % 2 == 0)
             {
-                    array_push($array_sec,$array[$cont]);
+                array_push($array_sec,$array[$cont]);
             }
     }
     echo array_sum($array_sec)/sizeof($array_sec) + "</br>";
-    ?>
+    echo "</br>";
+    echo "<h3>Posiciones impares</h3>";
+    for($i=0;$i<$tam;$i++)
+    {
+        if($i % 2 == 0)
+            echo "$array[i] </br>"
+    }
 </body>
 </html>
 
