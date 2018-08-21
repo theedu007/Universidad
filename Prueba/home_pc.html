@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Venta PC</title>
+</head>
+
+<body>
+    <form action="proceso_pc.php" method="post">
+        <p>
+            Seleccionar pedido: <br>
+            CPU: <select name="CPU">
+            <option value=400>Core I7 7800K</option>
+            <option value=350>Ryzen 7 2700X</option>
+            </select><br>
+            <br>
+            Tarjeta Grafica: <select name="grafica">
+            <option value=600>Nvidia RTX 2080</option>
+            <option value=550>RX Vega 64</option>
+            </select><br>
+            <br>
+            RAM: <select name="ram">
+            <option value=100>8 Gb</option>
+            <option value=150>16 Gb</option>
+            </select><br>
+            <br>
+        </p>
+        <h3>Informacion Pago</h3>
+        Nombre en Tarjeta: <input type="text" name="nombre" placeholder="nombre"><br>
+        Numero de la tarjeta: <input type="number" name="num_tarjeta" placeholder="Numero"> Codigo de Seguridad: <input type="number" name="cvc"><br>
+        Fecha de expiracion : <input type="text" name="fecha"><br>
+        <br>
+        <h3>Informcion personal</h3>
+        Tipo de documento: <select name="docu">
+        <option value="dui">DUI</option>
+        <option value="email">DUI</option>
+        </select>
+        <input type="submit" name="Comprar" value="Enviar">
+    </form>
+</body>
+</html>
