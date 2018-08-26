@@ -29,8 +29,16 @@
         echo("<li>$valor</li>");
     }
     echo("</ul> <br>");
-    echo
-    echo("</p>")
+    echo("Ha realizado los siguientes comentarios: $comentarios");
+    echo("<h3>Cuenta con los siguientes conocimientos extracurriculares:</h3>");
+    echo("<ul>");
+    foreach($conocimientos_extra as $valor)
+    {
+        echo("<li>$valor</li>");
+    }
+    echo("</ul> <br>");
+    echo("Su pais de origen es: $pais");
+    echo("</p>");
     ?>
 </body>
 </html>
