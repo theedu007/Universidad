@@ -23,12 +23,13 @@
     echo("Estudia en: $Universidad la carrera de: $carrera <br>");
     echo("Su carnet es: $carnet <br>");
     echo("<h3>Ha inscrito las siguientes materias:</h3>");
-    echo("<ul>")
+    echo("<ul>");
     foreach($materias as $valor)
     {
         echo("<li>$valor</li>");
     }
     echo("</ul> <br>");
+    echo
     echo("</p>")
     ?>
 </body>
