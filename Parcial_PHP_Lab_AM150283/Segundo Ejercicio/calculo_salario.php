@@ -24,7 +24,7 @@
     echo("Salario con descuentos: $salarioConDescuentos <br>");
     echo("Renta: $renta <br>");
     echo("Salario Total mensual: $salarioTotal <br>");
-    $salarioQuincenal = round($salarioTotal, 2,  PHP_ROUND_HALF_UP);
+    $salarioQuincenal = round(($salarioTotal/2), 2,  PHP_ROUND_HALF_UP);
     echo("Salario Quincenal: $salarioQuincenal");
     ?>
 </body>
