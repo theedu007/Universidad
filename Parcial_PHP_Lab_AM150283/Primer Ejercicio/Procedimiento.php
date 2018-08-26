@@ -32,7 +32,7 @@
     echo("Ha realizado los siguientes comentarios: $comentarios");
     echo("<h3>Cuenta con los siguientes conocimientos extracurriculares:</h3>");
     echo("<ul>");
-    foreach($conocimientos_extra as $valor)
+    foreach($conocimientos as $valor)
     {
         echo("<li>$valor</li>");
     }
