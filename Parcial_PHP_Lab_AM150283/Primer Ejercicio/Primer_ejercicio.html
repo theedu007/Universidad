@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primer Ejercicio</title>
+</head>
+
+<body>
+    <h2>Informacion Personal</h2>
+    <form action="/Procedimiento.php" method="post">
+        <p>
+        <label for="nombreCompleto">Nombre Completo: </label>
+        <input name="nombre" id="nombreCompleto" type="text" placeholder="Ingrese su nombre" required>
+        </p>
+        
+        <p>
+            <label for="genero">Genero: </label>
+            <select name="genero" id="genero" required>
+                <option value="" disabled selected hidden>Seleccione una opcion</option>
+                <option value="Masculino">Masculino</option>
+                <option value="Femenino">Femenino</option>
+            </select>
+        </p>
+        
+        <p>
+            <label for="fecha nacimiento">Fecha de nacimiento: </label>
+            <input type="date" name="fecha_nacimiento" id="fecha nacimiento" max="01-01-2018" required>
+        </p>
+        
+        <p>
+            <label for="universidad">Universidad: </label>
+            <select name="universidad" id="universidad" required>
+                <option value="" disabled selected hidden>Seleccione una universidad</option>
+                <option value="Universidad Don Bosco">Universidad Don Bosco</option>
+                <option value="Universidad Centroamericana">Universidad Centroamericana Jose Simeon Cañas</option>
+                <option value="Universidad Nacional">Universidad Nacional de El Salvador</option>
+            </select>
+        </p>
+        
+        <p>
+            <label for="carrera">Carrera: </label>
+            <input name="careera" id="carrera" type="text" placeholder="Ingrese la carrera que estudia" size="35">
+        </p>
+        
+        <p>
+            <label for="carnet estudiante">Carnet: </label>
+            <input name="carnet" id="carnet estudiante" type="text" placeholder="AA123456" required>
+        </p>
+        
+        <p>
+            <label for="materias">Materias Inscritas: </label> 
+            <select name="materias" id="materias" multiple required>
+                <option value='Matematicas Avanzadas'>Matematicas Avanzadas</option>
+                <option value='Dibujo Tecnico'>Dibujo Tecnico</option>
+                <option value='Programacion Basica'>Programacion Basica</option>
+                <option value='Fisica Aplicada'>Fisica Aplicada</option>
+                <option value='FisicaBase de datos Aplicada'>Base de datos</option>
+            </select>
+        </p>
+        
+        <p>
+            <label for="comentarios">Extracto del Usuario: </label>
+            <textarea name="comentarios" id="comentarios" placeholder="Ingrese sus comentarios" rows="5" cols="20"></textarea>
+        </p>
+        
+        <p>
+            <label for="dibujo">Dibujo</label>
+            <input name="conocimientos_extra" id="dibujo" type=checkbox value="Dibujo">
+            <br>
+            <label for="ofimatica">Ofimatica</label>
+            <input name="conocimientos_extra" id="ofimatica" type="checkbox" value="Ofimatica">
+            <br>
+            <label for="foto">Fotogafia</label>
+            <input name="conocimientos_extra" id="foto" type="checkbox" value="Fotografia">
+        </p>
+        
+        <p>
+            <label for="pais">Pais Natal</label>
+            <select name="pais" id="pais" required>
+                <option value="" disabled selected hidden>Ingrese su pais</option>
+                <option value="El Salvador">El Salvador</option>
+                <option value="Honduras">Honduras</option>
+                <option value="Nicaragua">Nicaragua</option>
+                <option value="EE.UU.">EE.UU.</option>
+                <option value="EE.UU.Canada">Canada</option>
+            </select>
+        </p>
+    </form>
+</body>
+</html>
