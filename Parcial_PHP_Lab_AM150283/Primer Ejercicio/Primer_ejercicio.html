@@ -44,13 +44,13 @@
         </p>
         
         <p>
-            <label for="carnet estudiante">Carnet: </label>
-            <input name="carnet" id="carnet estudiante" type="text" placeholder="AA123456" required>
+            <label for="carnet_estudiante">Carnet: </label>
+            <input name="carnet" id="carnet_estudiante" type="text" placeholder="AA123456" required>
         </p>
         
         <p>
             <label for="materias">Materias Inscritas: </label> 
-            <select name="materias" id="materias" multiple required>
+            <select name="materias[]" id="materias" multiple required>
                 <option value='Matematicas Avanzadas'>Matematicas Avanzadas</option>
                 <option value='Dibujo Tecnico'>Dibujo Tecnico</option>
                 <option value='Programacion Basica'>Programacion Basica</option>
@@ -66,13 +66,13 @@
         
         <p>
             <label for="dibujo">Dibujo</label>
-            <input name="conocimientos_extra" id="dibujo" type=checkbox value="Dibujo">
+            <input name="conocimientos_extra[]" id="dibujo" type=checkbox value="Dibujo">
             <br>
             <label for="ofimatica">Ofimatica</label>
-            <input name="conocimientos_extra" id="ofimatica" type="checkbox" value="Ofimatica">
+            <input name="conocimientos_extra[]" id="ofimatica" type="checkbox" value="Ofimatica">
             <br>
             <label for="foto">Fotogafia</label>
-            <input name="conocimientos_extra" id="foto" type="checkbox" value="Fotografia">
+            <input name="conocimientos_extra[]" id="foto" type="checkbox" value="Fotografia">
         </p>
         
         <p>
@@ -86,6 +86,7 @@
                 <option value="EE.UU.Canada">Canada</option>
             </select>
         </p>
+        <input type="submit" value="Enviar">
     </form>
 </body>
 </html>

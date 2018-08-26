@@ -19,7 +19,9 @@
     $pais = $_POST['pais'];
     
     echo("<p>");
-    echo("Su nombre es: $nombre");
+    echo("Su nombre es: $nombre <br> genero: $genero, nacio en la siguiente fecha: $fecha_nacimiento <br>");
+    echo("Estudia en: $Universidad la carrera de: $carrera <br>");
+    echo("Su carnet es: $carnet");
     echo("</p>")
     ?>
 </body>
