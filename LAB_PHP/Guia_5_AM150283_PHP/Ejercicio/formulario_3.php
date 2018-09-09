@@ -3,11 +3,11 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="/estilo.css">
+    <link rel="stylesheet" type="text/css" href="../estilo.css">
     <title>Ejemplo 2</title>
 </head>
 <body>
-    <form action="/Ejercicio/recibir_datos.php" method="get" name="datos">
+    <form action="recibir_datos.php" method="get" name="datos">
         <table>
             <tr>
                 <td colspan="2" align="center"><h3>Datos Personales</h3></td>
