@@ -62,6 +62,13 @@
                 </td>
             </tr>
             
+            <tr>
+                <td colspan="2">
+                    <input type="submit" value="Enviar">
+                    &nbsp;&nbsp;&nbsp;&nbsp;
+                    <input type="reset" value="Borrar">
+                </td>
+            </tr>
         </table>
     </form>
 </body>
