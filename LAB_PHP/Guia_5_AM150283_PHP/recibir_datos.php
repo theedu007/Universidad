@@ -19,7 +19,7 @@
     echo "Valor introducido";
     echo "</th>";
     echo "</tr>";
-    foreach($_GET as $nombre_campo => $valor)
+    foreach($_POST as $nombre_campo => $valor)
     {
         echo "<tr><td> $nombre_campo </td>";
         echo "<td>";
