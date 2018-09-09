@@ -1,0 +1,10 @@
+table {
+    border: 0;
+    align-content: center;
+    background-color: #669966
+}
+td {
+    background-color: #AACC66;
+    box-sizing: 25;
+    text-align:center;
+}
